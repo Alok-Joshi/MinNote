@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'notes.app.Notes.Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
